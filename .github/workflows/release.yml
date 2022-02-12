@@ -48,8 +48,8 @@ jobs:
         if: steps.release-please.outputs.pr && github.event_name != 'workflow_dispatch'
         id: commit-vars
         run: |
-          echo ::set-output name=git_author_email::"$(git show -s --format='%aE' HEAD~1)"
-          echo ::set-output name=git_author_username::"$(git show -s --format='%aN' HEAD~1)"
+          echo ::set-output name=git_author_email::"$(git show -s --format='%aE' HEAD)"
+          echo ::set-output name=git_author_username::"$(git show -s --format='%aN' HEAD)"
 
       - uses: actions/setup-node@v2
         if: steps.release-please.outputs.pr && github.event_name != 'workflow_dispatch'
