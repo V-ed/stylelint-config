@@ -1,0 +1,38 @@
+{
+	"name": "@v-ed/stylelint-config",
+	"version": "0.0.1",
+	"description": "Shared Stylelint config for my projects",
+	"license": "MIT",
+	"repository": "V-ed/stylelint-config",
+	"author": "Guillaume Marcoux",
+	"main": ".stylelintrc.json",
+	"engines": {
+		"node": ">=14"
+	},
+	"files": [
+		".stylelintrc.json"
+	],
+	"keywords": [
+		"stylelint",
+		"config",
+		"configuration"
+	],
+	"prettier": "@v-ed/prettier-config",
+	"eslintConfig": {
+		"extends": [
+			"@v-ed/eslint-config"
+		]
+	},
+	"devDependencies": {
+		"@v-ed/eslint-config": "0.1.0",
+		"@v-ed/prettier-config": "0.1.1"
+	},
+	"dependencies": {
+		"stylelint-config-css-modules": "^3.0.0",
+		"stylelint-config-html": "^1.0.0",
+		"stylelint-config-standard": "^25.0.0"
+	},
+	"peerDependencies": {
+		"stylelint": ">= 14.0.0"
+	}
+}
