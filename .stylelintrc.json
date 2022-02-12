@@ -15,5 +15,5 @@
 		"selector-class-pattern": "^[a-z][a-z0-9_-]+$",
 		"selector-id-pattern": "^[a-z][a-z0-9_-]+$"
 	},
-	"ignoreFiles": ["node_modules/**/*", "dist/**/*", "public/theme/**/*"]
+	"ignoreFiles": ["./**/node_modules/**/*", "./**/dist/**/*", "./**/public/theme/**/*"]
 }
