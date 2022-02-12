@@ -13,6 +13,10 @@ jobs:
     name: 'Release Please'
     runs-on: ubuntu-latest
 
+    outputs:
+      release_created: ${{ steps.release-please.outputs.release_created }}
+      tag_name: ${{ steps.release-please.outputs.tag_name }}
+
     steps:
       - uses: GoogleCloudPlatform/release-please-action@v3
         id: release-please
