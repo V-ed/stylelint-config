@@ -103,7 +103,7 @@ jobs:
         if: steps.cache-modules.outputs.cache-hit != 'true'
         run: npm install
 
-      - name: Publish
+      - name: Publish ${{ needs.release.outputs.tag_name }}
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
