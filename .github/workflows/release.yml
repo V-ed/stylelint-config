@@ -27,6 +27,7 @@ jobs:
           manifest-file: .github/release-please-manifest.json
 
       - name: Release Please Output
+        if: github.event_name != 'workflow_dispatch'
         run: echo '${{ toJSON(steps.release-please.outputs) }}'
 
       - name: Setup vars
