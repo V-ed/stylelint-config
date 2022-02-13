@@ -26,10 +26,6 @@ jobs:
           config-file: .github/release-please-config.json
           manifest-file: .github/release-please-manifest.json
 
-      - name: Release Please Output
-        if: github.event_name != 'workflow_dispatch'
-        run: echo '${{ toJSON(steps.release-please.outputs) }}'
-
       - name: Setup vars
         if: steps.release-please.outputs.pr && github.event_name != 'workflow_dispatch'
         id: vars
