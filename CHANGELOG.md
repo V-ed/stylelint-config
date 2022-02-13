@@ -1,5 +1,13 @@
 # Changelog
 
+### [0.2.1](https://github.com/V-ed/stylelint-config/compare/stylelint-config-v0.2.0...stylelint-config-v0.2.1) (2022-02-13)
+
+
+### Bug Fixes
+
+* ci being funky ([51e96f3](https://github.com/V-ed/stylelint-config/commit/51e96f31aa96147c22f5bc330540eadf64e4a069))
+* remove ignoreFiles as it doesn't work in shared config ([2c94c70](https://github.com/V-ed/stylelint-config/commit/2c94c70c8a7f5be7aa6859346f0b43f3829e4cd4))
+
 ## [0.2.0](https://github.com/V-ed/stylelint-config/compare/stylelint-config-v0.1.0...stylelint-config-v0.2.0) (2022-02-12)
 
 
