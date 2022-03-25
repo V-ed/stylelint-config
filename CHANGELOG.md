@@ -1,5 +1,17 @@
 # Changelog
 
+### [0.2.2](https://github.com/V-ed/stylelint-config/compare/stylelint-config-v0.2.1...stylelint-config-v0.2.2) (2022-03-25)
+
+
+### Bug Fixes
+
+* missing peer dep postcss-html ([b3fa602](https://github.com/V-ed/stylelint-config/commit/b3fa602e42cdd88ec9808b1255c0e91900df57a2))
+
+
+### Dependencies
+
+* update dependency stylelint-config-css-modules to v4 ([#8](https://github.com/V-ed/stylelint-config/issues/8)) ([011ff49](https://github.com/V-ed/stylelint-config/commit/011ff49eb6a7a83d6aa286572fec540ed360bc34))
+
 ### [0.2.1](https://github.com/V-ed/stylelint-config/compare/stylelint-config-v0.2.0...stylelint-config-v0.2.1) (2022-02-13)
 
 
