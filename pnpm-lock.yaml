@@ -6,13 +6,13 @@ specifiers:
   postcss-html: 1.5.0
   stylelint-config-css-modules: ^4.0.0
   stylelint-config-html: ^1.0.0
-  stylelint-config-standard: ^25.0.0
+  stylelint-config-standard: ^28.0.0
 
 dependencies:
   postcss-html: 1.5.0
   stylelint-config-css-modules: 4.1.0
   stylelint-config-html: 1.1.0_postcss-html@1.5.0
-  stylelint-config-standard: 25.0.0
+  stylelint-config-standard: 28.0.0
 
 devDependencies:
   '@v-ed/eslint-config': 0.1.3
@@ -534,18 +534,18 @@ packages:
       postcss-html: 1.5.0
     dev: false
 
-  /stylelint-config-recommended/7.0.0:
-    resolution: {integrity: sha512-yGn84Bf/q41J4luis1AZ95gj0EQwRX8lWmGmBwkwBNSkpGSpl66XcPTulxGa/Z91aPoNGuIGBmFkcM1MejMo9Q==}
+  /stylelint-config-recommended/9.0.0:
+    resolution: {integrity: sha512-9YQSrJq4NvvRuTbzDsWX3rrFOzOlYBmZP+o513BJN/yfEmGSr0AxdvrWs0P/ilSpVV/wisamAHu5XSk8Rcf4CQ==}
     peerDependencies:
-      stylelint: ^14.4.0
+      stylelint: ^14.10.0
     dev: false
 
-  /stylelint-config-standard/25.0.0:
-    resolution: {integrity: sha512-21HnP3VSpaT1wFjFvv9VjvOGDtAviv47uTp3uFmzcN+3Lt+RYRv6oAplLaV51Kf792JSxJ6svCJh/G18E9VnCA==}
+  /stylelint-config-standard/28.0.0:
+    resolution: {integrity: sha512-q/StuowDdDmFCravzGHAwgS9pjX0bdOQUEBBDIkIWsQuYGgYz/xsO8CM6eepmIQ1fc5bKdDVimlJZ6MoOUcJ5Q==}
     peerDependencies:
-      stylelint: ^14.4.0
+      stylelint: ^14.11.0
     dependencies:
-      stylelint-config-recommended: 7.0.0
+      stylelint-config-recommended: 9.0.0
     dev: false
 
   /stylelint-scss/4.3.0:
