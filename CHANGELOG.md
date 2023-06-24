@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.4](https://github.com/V-ed/stylelint-config/compare/stylelint-config-v0.2.3...stylelint-config-v0.2.4) (2023-06-24)
+
+
+### Dependencies
+
+* tweak stylelint-config-standard version matching to take latest ([1283ba2](https://github.com/V-ed/stylelint-config/commit/1283ba27ed2a576a50055ede9e9c5a4c81e9cfe6))
+* update dependency postcss-html to v1.5.0 ([3d96de7](https://github.com/V-ed/stylelint-config/commit/3d96de71bd684e885b289e9a014d655f2829992c))
+
 ### [0.2.3](https://github.com/V-ed/stylelint-config/compare/stylelint-config-v0.2.2...stylelint-config-v0.2.3) (2022-05-03)
 
 
