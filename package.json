@@ -22,7 +22,7 @@
 	},
 	"devDependencies": {
 		"@v-ed/eslint-config": "0.2.6",
-		"@v-ed/prettier-config": "0.3.0"
+		"@v-ed/prettier-config": "0.3.1"
 	},
 	"dependencies": {
 		"postcss-html": "^1.5.0",
