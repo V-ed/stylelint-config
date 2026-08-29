@@ -15,8 +15,8 @@ dependencies:
     specifier: ^4.0.0
     version: 4.2.0(stylelint@14.0.0)
   stylelint-config-html:
-    specifier: ^1.0.0
-    version: 1.1.0(postcss-html@1.5.0)(stylelint@14.0.0)
+    specifier: ^2.0.0
+    version: 2.0.0(postcss-html@1.5.0)(stylelint@14.0.0)
   stylelint-config-standard:
     specifier: '>= 25.0.0'
     version: 25.0.0(stylelint@14.0.0)
@@ -716,6 +716,7 @@ packages:
   /eslint@9.17.0:
     resolution: {integrity: sha512-evtlNcpJg+cZLcnVKwsai8fExnqjGPicK7gnUtlNuzu+Fv9bI0aLpND5T44VLQtoMEnI57LoXO9XAkIXwohKrA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -1737,12 +1738,12 @@ packages:
       stylelint-scss: 4.6.0(stylelint@14.0.0)
     dev: false
 
-  /stylelint-config-html@1.1.0(postcss-html@1.5.0)(stylelint@14.0.0):
-    resolution: {integrity: sha512-IZv4IVESjKLumUGi+HWeb7skgO6/g4VMuAYrJdlqQFndgbj6WJAXPhaysvBiXefX79upBdQVumgYcdd17gCpjQ==}
-    engines: {node: ^12 || >=14}
+  /stylelint-config-html@2.0.0(postcss-html@1.5.0)(stylelint@14.0.0):
+    resolution: {integrity: sha512-Lk1NPEdUxzHkPv3ehktjpiOk4MPaqQ3H8fkvhxdWlQpaZCm9ze0SoMbRQLqkUxEMfPE1G9/x968uxm/+d2njoA==}
+    engines: {node: ^22.12 || >=24}
     peerDependencies:
-      postcss-html: ^1.0.0
-      stylelint: '>=14.0.0'
+      postcss-html: ^2.0.0
+      stylelint: '>=16.0.0'
     dependencies:
       postcss-html: 1.5.0
       stylelint: 14.0.0
